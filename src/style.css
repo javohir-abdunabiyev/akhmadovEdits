@@ -18,7 +18,8 @@ html, body {
 
 .swiper-container {
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
+  height: 100%;
 }
 .swiper-slide {
   display: flex;
@@ -348,4 +349,43 @@ html, body {
   font-size: 130px;
   font-weight: bolder;
   color: rgba(35, 35, 36, 0.8);
+}
+
+.adaptedMenu {
+  height: 35px;
+  width: 35px;
+}
+
+.adaptedMenuBlock {
+  position: absolute;
+  top: -1000px;
+  transition: .3s ease-in;
+  left: 0;
+  background: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+.adaptedMenuBlock_active {
+  top: 0;
+  transition: .3s ease-in;
+}
+
+.pgeBtnsDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  left: 30px;
+  gap: 30px;
+  a {
+    font-size: 30px;
+  }
+}
+
+.menucloseBtn {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  font-size: 60px;
 }

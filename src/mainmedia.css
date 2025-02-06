@@ -1,191 +1,157 @@
 @media(max-width: 1200px) {
-    .first_footer {
-        margin-left: 70px;
-        img {
-            width: 170px;
-            height: 170px;
-        }
-        .shapka_footera {
-            font-size: 3vh;
-        }
-    }
-    .last_footer {
-        margin-left: 70px;
-    }
-    .contacts {
-        font-size: 3vh;
-    }
-    .bg_name_div p {
-        font-size: 100px;
-    }
-}
-
-@media (max-width:992px) {
-    .nav_div {
-        display: none;
-    }
-    .main_title {
-        margin-left: 105px;
-    }
-    .secondTitle {
-        margin-left: 105px;
-    }
-    .swiper-slide {
-        font-size: 19px;
-    }
-    .acc_statistics span{
-        font-size: 24px !important;
-    }
-    .subs_txt {
-        font-size: 8px;
-    }
     .soc_seti_footer {
         display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: 150px;
-        gap: 130px;
-    }
-    .bg_name_div p {
-        font-size: 75px;
-    }
-    .swiper-pagination {
-        right: 30px;
-    }
-}
-
-@media (max-width:768px) {
-    .main_title {
-        margin-left: 55px;
-        h1 {
-            margin-bottom: 16px;
-        }
-        p {
-            max-width: 400px;
-        }
-    }
-    .secondTitle {
-        margin-left: 55px;
-    }
-    .last_footer {
-        margin-left: 55px;
-    }
-    .txts_div {
-        h1 {
-            margin-bottom: 16px;
-        }
-    }
-    .swiper-slide {
-        font-size: 15px;
-    }
-    .txts_div {
-        p {
-            max-width: 400px;
-        }
-    }
-    .acc_statistics {
-        gap: 38px;
-    }
-    .bg_name_div p {
-        font-size: 56px;
-    }
-    .soc_seti_footer {
-        grid-template-rows: 95px;
+        grid-template-columns: repeat(3, auto);
+        gap: 80px;
+        row-gap: 20px;
         img {
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
+        }
+        .soc_seti_footer {
+            font-size: 25px;
+        }
+        .inst_footer {
+            font-size: 25px;
+        }
+        .tg_footer {
+            font-size: 25px;
         }
     }
-    .watchEdits {
-        width: 200px;
-        font-size: 0.9rem;
+    .shapka_footera {
+        font-size: 2vw;
     }
-    .inst_acc {
-        width: 205px;
-        font-size: 0.9rem;
+    .contacts_div a {
+        font-size: 2.7vw !important;
+    }
+    .contacts {
+        font-size: 2.7vw;
+    }
+    .bg_name_div p {
+        font-size: 85px;
+    }
+    .swiper-container {
+        max-height: 91vh;
     }
 }
 
 @media (max-width:576px) {
-    .main_title {
-        max-width: 300px;
-        h1 {
-            margin-bottom: 8px;
-            font-size: 20px;
-        }
-        p {
-            font-size: 12px;
-        }
-    }
-    .secondTitle {
-        max-width: 300px;
+    .nav_div {
+        display: none;
     }
     .connect_btn {
         width: 130px;
-        font-size: 0.8rem;
+        height: 35px;
+        font-size: 0.8em;
     }
-    .title_btns {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .watchEdits {
-        width: 170px;
-        font-size: 0.7rem;
-        height: 50px;
-    }
-    .inst_acc {
-        width: 170px;
-        font-size: 0.7rem;
-        height: 50px;
+    .logo {
+        width: 140px;
     }
     .swiper-pagination {
-        right: -3px !important;
-    }
-    .swiper-pagination-bullet {
-        width: 0.7rem;
-        height: 0.7rem;
-    }
-    .txts_div {
-        h1 {
-            font-size: 20px;
-        }
-        p {
-            font-size: 12px;
-        }
-    }
-    .acc_statistics span {
-        font-size: 15px !important;
+        top: 38px;
+        right: 0px !important;
     }
     .main_title {
         margin-left: 30px;
+        position: absolute;
+        top: 200px;
     }
-    
+    .secondTitle {
+        position: absolute;
+        top: 200px;
+    }
+    .main_title h1 {
+        font-size: 22px;
+    }
+    .main_title p {
+        font-size: 17px;
+        max-width: 300px;
+        margin-bottom: 68px;
+    }
+    .title_btns {
+        flex-direction: column;
+    }
+    .watchEdits {
+        width: 175px;
+        height: 45px;
+        font-size: 0.9rem;
+    }
+    .inst_acc {
+        width: 175px;
+        height: 45px;
+        font-size: 0.9rem;
+    }
+    .swiper-container {
+        max-height: unset;
+    }
+    .video-bg video {
+        height: 83vh;
+    }
     .secondTitle {
         margin-left: 30px;
     }
-    .soc_seti_footer {
-        display: flex;
-        flex-direction: column;
-        gap: 70px;
-        img {
-            display: none;
+    .txts_div {
+        h1 {
+            font-size: 23px;
+        }
+        p {
+            font-size: 17px;
+            max-width: 360px;
         }
     }
-    .inst_footer {
-        font-size: 23px;
+    .acc_statistics {
+        gap: 10px;
+    }
+    .sCount {
+        font-size: 3.8vw;
+    }
+    .subs_txt {
+        font-size: 8px;
+    }
+    .first_footer {
+        margin-left: 30px;
+        position: absolute;
+        top: 200px;
+    }
+    .shapka_footera {
+        font-size: 5vw;
+    }
+    .soc_seti_footer {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 60px;
+        row-gap: 20px;
+        img {
+            width: 90px;
+            height: 90px;
+        }
     }
     .tiktok_footer {
-        font-size: 23px;
+        font-size: 6vw;
     }
-    .tg_footer {
-        font-size: 23px;
+    .last_footer {
+        margin-left: 80px;
     }
-    .bg_name_div {
+    .bg_name_div p {
         display: none;
     }
-    .contacts_div a {
-        font-size: 27px !important;
+    .contacts {
+        font-size: 6.7vw;
     }
-    .acc_statistics {
-        flex-direction: column;
+    .contacts_div a {
+        font-size: 5.7vw !important;
+    }
+    .contacts_div {
+        position: absolute;
+        top: 300px;
+    }
+    .div_for_logo_nav {
+        gap: 10px;
+    }
+    .header {
+        a {
+            
+            margin-left: 30px;
+        }
     }
 }
