@@ -13,8 +13,8 @@ export default defineConfig({
         portfolio: resolve(__dirname, 'src/pages/portfolio/index.html'),
         socialNetworks: resolve(__dirname, 'src/pages/socialnetworks/index.html'),
         uslugi: resolve(__dirname, 'src/pages/uslugi/index.html'),
-        adaptedMenu: resolve(__dirname, 'dist/assets/adaptedMenu.png'),
-        logo: resolve(__dirname, 'dist/assets/logo.png'),
+        adaptedMenu: resolve(__dirname, 'imgs/adaptedMenu.png'),
+        logo: resolve(__dirname, 'imgs/logo.png'),
 
 
       },
