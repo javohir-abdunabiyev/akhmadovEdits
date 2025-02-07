@@ -15,7 +15,7 @@ export default defineConfig({
         adaptedMenu: resolve(__dirname, 'imgs/adaptedMenu.png'),
         imgs: 'imgs/instagram.webp',
         instLogo: resolve('imgs/instLogo.png'),
-        logo: resolve('imgs/logo.png'),
+        imgs: resolve('imgs/logo.png'),
         telegram: resolve('imgs/telegram.webp'),
         tiktok: resolve('imgs/tiktok.png'),
         whiteTg: resolve('imgs/whiteTg.png'),
