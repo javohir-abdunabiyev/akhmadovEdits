@@ -15,3 +15,20 @@ vids_controls.forEach(vid => {
     }
 
 })
+
+if(window.innerWidth <= 576) {
+    vids_controls.forEach(vid => {
+        vid.controls = true
+    })
+} else {
+    vids_controls.forEach(vid => {
+        vid.onmouseenter = () => {
+            vid.controls = true
+        }
+    
+        vid.onmouseleave = () => {
+            vid.controls = false
+        }
+    
+    })
+}

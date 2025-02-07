@@ -11,6 +11,49 @@ body {
     background-color: #000000;
 }
 
+.adaptedMenu {
+  height: 35px;
+  width: 35px;
+}
+
+.adaptedMenuBlock {
+  position: absolute;
+  top: -1000px;
+  transition: .3s ease-in;
+  left: 0;
+  background: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+.adaptedMenuBlock_active {
+  top: 0;
+  transition: .3s ease-in;
+}
+
+.pgeBtnsDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  left: 30px;
+  gap: 30px;
+  a {
+    font-size: 30px;
+  }
+}
+
+.menucloseBtn {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  font-size: 60px;
+}
+
+.adaptedMenu {
+  display: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

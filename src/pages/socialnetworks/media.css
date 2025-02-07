@@ -1,0 +1,57 @@
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .header {
+        position: sticky;
+        padding: 0;
+        max-height: 130px;
+    }
+    .main_div {
+        max-height: 100px;
+    }
+    .last_Videos {
+        grid-template-columns: repeat(1, auto);
+    }
+    .adaptedMenu {
+        display: block;
+    }
+    .nav_div {
+        display: none !important;
+    }
+    .div_for_logo_nav {
+        gap: 0 !important;
+    }
+    .connect_btn {
+        width: 130px !important;
+        height: 35px !important;
+        font-size: 0.8em !important;
+        margin-left: 30px;
+    }
+    .socs_h1 {
+        font-size: 1.8rem;
+    }
+    .soc_net {
+        margin-top: 30px;
+        margin-bottom: 3rem;
+        margin-left: 60px;
+    }
+    .soc_btns {
+        flex-direction: column;
+        gap: 130px;
+    }
+    .last_footer {
+        margin-top: 135px;
+        margin-bottom: 350px;
+    }
+    .contacts {
+        font-size: 5vw;
+    }
+    .contacts_div a {
+        font-size: 5.4vw;
+    }
+    .bg_name_div p {
+        display: none;
+    }
+}

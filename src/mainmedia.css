@@ -39,6 +39,9 @@
     .nav_div {
         display: none;
     }
+    .adaptedMenu {
+        display: block;
+    }
     .connect_btn {
         width: 130px;
         height: 35px;
@@ -48,7 +51,7 @@
         width: 140px;
     }
     .swiper-pagination {
-        top: 38px;
+        top: 35% !important;
         right: 0px !important;
     }
     .main_title {

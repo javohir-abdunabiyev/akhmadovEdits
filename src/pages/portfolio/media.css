@@ -1,0 +1,104 @@
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .header {
+        position: sticky;
+        padding: 0;
+        max-height: 130px;
+    }
+    .main_div {
+        max-height: 100px;
+    }
+    .last_Videos {
+        grid-template-columns: repeat(1, auto);
+    }
+    .adaptedMenu {
+        display: block;
+    }
+    .nav_div {
+        display: none !important;
+    }
+    .div_for_logo_nav {
+        gap: 0 !important;
+    }
+    .connect_btn {
+        width: 130px !important;
+        height: 35px !important;
+        font-size: 0.8em !important;
+        margin-left: 30px;
+    }
+    .my_projects h1 {
+        font-size: 23px;
+    }
+    .all_projects {
+        grid-template-columns: repeat(1, auto);
+    }
+    .first_big_vid {
+        height: 480px;
+    }
+    .main_div {
+        justify-content: unset;
+    }
+    .last_vids3 {
+        margin-left: 10px;
+        width: 420px;
+    }
+    .first_footer {
+        margin-left: 30px;
+        position: absolute;
+        top: 200px;
+    }
+    .shapka_footera {
+        font-size: 5vw;
+    }
+    .soc_seti_footer {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 0px;
+        row-gap: 20px;
+        img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+    .tiktok_footer {
+        font-size: 6vw;
+    }
+    .last_footer {
+        margin-left: 80px;
+    }
+    .bg_name_div p {
+        display: none;
+    }
+    .contacts {
+        font-size: 6.7vw;
+    }
+    .contacts_div a {
+        font-size: 5.7vw !important;
+    }
+    .contacts_div {
+        position: absolute;
+        top: 300px;
+    }
+    .last_Videos {
+        margin: 0;
+    }
+    .my_projects h1 {
+        margin-top: 16px;
+        margin-left: 30px;
+        font-size: 20px;
+        max-width: 300px;
+    }
+    .inst_footer {
+        font-size: 6vw;
+    }
+    .tg_footer {
+        font-size: 6vw;
+    }
+    .soc_seti_footer {
+        margin-left: 0;
+        margin-bottom: 300px;
+    }
+}

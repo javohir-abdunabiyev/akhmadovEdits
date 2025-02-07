@@ -1,0 +1,80 @@
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .header {
+        position: sticky;
+        padding: 0;
+        max-height: 130px;
+    }
+    .main_div {
+        max-height: 100px;
+    }
+    .last_Videos {
+        grid-template-columns: repeat(1, auto);
+    }
+    .adaptedMenu {
+        display: block;
+    }
+    .nav_div {
+        display: none !important;
+    }
+    .div_for_logo_nav {
+        gap: 0 !important;
+    }
+    .connect_btn {
+        width: 130px !important;
+        height: 35px !important;
+        font-size: 0.8em !important;
+        margin-left: 30px;
+    }
+    .mainTitleSer {
+        margin-top: 40px;
+        font-size: 1.6rem;
+    }
+    .service {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 0;
+        gap: 0;
+    }
+    .left_side {
+        margin-left: 0px;
+    }
+    .mainTitleSer {
+        margin-left: 30px;
+    }
+    .right_side {
+        margin-bottom: 40px;
+    }
+    .left_side h1 {
+        font-size: 1.2rem !important;
+    }
+    .txt {
+        margin-top: 15px;
+        font-size: 1rem !important;
+        max-width: 350px;
+    }
+    .numTwo {
+        margin-left: 32px;
+    }
+    .numOne {
+        margin-left: 32px;
+    }
+    .last_footer {
+        margin-top: 90px;
+        margin-bottom: 270px;
+    }
+    .contacts {
+        font-size: 5vw;
+    }
+    .contacts_div a {
+        font-size: 1.7rem;
+    }
+    .bg_name_div p {
+        display: none;
+    }
+    
+    
+}
