@@ -51,7 +51,6 @@
         width: 140px;
     }
     .swiper-pagination {
-        top: 35% !important;
         right: 0px !important;
     }
     .main_title {
@@ -88,7 +87,7 @@
         max-height: 100vh;
     }
     .video-bg video {
-        height: 83vh;
+        height: 100vh;
     }
     .secondTitle {
         margin-left: 30px;
