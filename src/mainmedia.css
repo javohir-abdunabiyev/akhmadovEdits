@@ -31,7 +31,7 @@
         font-size: 85px;
     }
     .swiper-container {
-        max-height: 91vh;
+        max-height: 100vh;
     }
 }
 
@@ -85,7 +85,7 @@
         font-size: 0.9rem;
     }
     .swiper-container {
-        max-height: unset;
+        max-height: 100vh;
     }
     .video-bg video {
         height: 83vh;
