@@ -189,16 +189,12 @@ body {
 
 .contacts_div a {
   font-weight: 800;
-  font-size: 3.4vw !important;
+  font-size: 3.4vw;
   line-height: 1.4;
   letter-spacing: 0.05em;
   color: #ffffff;
   border-bottom: 2px dashed;
   transition: .2s ease-in;
-}
-
-.contacts_div {
-  z-index: 2;
 }
 
 .contacts_div a:hover {

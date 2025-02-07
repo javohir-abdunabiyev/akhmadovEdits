@@ -207,10 +207,6 @@ body {
     transition: .2s ease-in;
   }
   
-  .contacts_div {
-    z-index: 2;
-  }
-  
   .contacts_div a:hover {
     color: #FF0000;
     transition: .2s ease-in;
